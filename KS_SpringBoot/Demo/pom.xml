@@ -23,6 +23,8 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!--spring-boot-starter：所有的springboot依赖都是使用这个开头的-->
+		<!--单元测试-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -32,6 +34,20 @@
 
 	<build>
 		<plugins>
+			<!--
+				在工作中,很多情况下我们打包是不想执行测试用例的
+				可能是测试用例不完事,或是测试用例会影响数据库数据
+				跳过测试用例执
+			-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<!--跳过项目运行测试用例-->
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+			<!--大jar包插件-->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
