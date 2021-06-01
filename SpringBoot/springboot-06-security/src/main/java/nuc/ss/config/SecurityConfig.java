@@ -34,10 +34,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.logout().logoutSuccessUrl("/");
 
         // 防止网站工具：get，post
-        http.csrf().disable();//关闭csrf功能，登录失败肯定存在的原因
+//        http.csrf().disable();//关闭csrf功能，登录失败肯定存在的原因
 
         //开启记住我功能: cookie,默认保存两周,自定义接收前端的参数
-        http.rememberMe().rememberMeParameter("remember");
+//        http.rememberMe().rememberMeParameter("remember");
 
 
     }

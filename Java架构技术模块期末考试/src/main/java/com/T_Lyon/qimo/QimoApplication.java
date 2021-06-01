@@ -1,17 +1,13 @@
-package com.T_Lyon.mysecurity;
+package com.T_Lyon.qimo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * @author Lyon
- * 2021-5-23 14:50:56
- */
 @SpringBootApplication
-public class MysecurityApplication {
+public class QimoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MysecurityApplication.class, args);
+        SpringApplication.run(QimoApplication.class, args);
     }
 
 }

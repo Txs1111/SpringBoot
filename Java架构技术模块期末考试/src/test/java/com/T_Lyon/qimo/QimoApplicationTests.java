@@ -1,10 +1,10 @@
-package com.T_Lyon.mysecurity;
+package com.T_Lyon.qimo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MysecurityApplicationTests {
+class QimoApplicationTests {
 
     @Test
     void contextLoads() {
