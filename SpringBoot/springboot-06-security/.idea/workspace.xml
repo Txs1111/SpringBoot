@@ -5,44 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99ae8f40-8d5f-41f8-84ba-5b679bdf2ee3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/controller/Security1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/mapper/userMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/mapper/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/templates/admin/self.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/templates/my/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-03-web/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/Security/config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/controller/Security.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/mysecurity/MysecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/QimoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/templates/admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/templates/user/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/resources/templates/user/self.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/test/java/com/T_Lyon/mysecurity/MysecurityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/test/java/com/T_Lyon/qimo/QimoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-03-web/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-03-web/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java架构技术模块期末考试/src/main/java/com/T_Lyon/qimo/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nuc/ss/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nuc/ss/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nuc/ss/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nuc/ss/config/SecurityConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,17 +71,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Springboot06SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-06-security" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="nuc.ss.Springboot06SecurityApplication" />
@@ -141,6 +95,7 @@
       <workItem from="1622517847458" duration="191000" />
       <workItem from="1622531957028" duration="600000" />
       <workItem from="1622538148419" duration="14245000" />
+      <workItem from="1622600616538" duration="3144000" />
     </task>
     <servers />
   </component>
