@@ -26,14 +26,17 @@ public class CodeGenerator {
         // 2、全局配置
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir("E:\\work\\guli_parent\\service\\service_edu" + "/src/main/java");
+        //代码生成的位置
+//      gc.setOutputDir(projectPath + "/src/main/java");
+        gc.setOutputDir("D:\\IDEA\\Code\\SpringBoot\\GuLiXueYuan\\项目源码\\day02\\guli_parent\\service\\service_edu" + "/src/main/java");
 
-        gc.setAuthor("testjava");
+        gc.setAuthor("T_Lyon");//设置作者
         gc.setOpen(false); //生成后是否打开资源管理器
         gc.setFileOverride(false); //重新生成时文件是否覆盖
 
-        //UserServie
-        gc.setServiceName("%sService");	//去掉Service接口的首字母I
+        //mp生成service层代码，默认接口名称第一个字母有 I
+        //UserService
+        gc.setServiceName("%sService");    //去掉Service接口的首字母I
 
         gc.setIdType(IdType.ID_WORKER_STR); //主键策略
         gc.setDateType(DateType.ONLY_DATE);//定义生成的实体类中日期类型
@@ -43,10 +46,10 @@ public class CodeGenerator {
 
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/gulixueyuan?serverTimezone=GMT%2B8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("root");
+        dsc.setPassword("");
         dsc.setDbType(DbType.MYSQL);
         mpg.setDataSource(dsc);
 
@@ -64,7 +67,7 @@ public class CodeGenerator {
 
         // 5、策略配置
         StrategyConfig strategy = new StrategyConfig();
-
+        //数据库表名
         strategy.setInclude("edu_teacher");
 
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
