@@ -89,6 +89,7 @@ public class EduTeacherController {
     @PostMapping("pageTeacherCondition/{current}/{limit}")
     public R pageTeacherCondition(@PathVariable long current,@PathVariable long limit,
                                   @RequestBody(required = false)  TeacherQuery teacherQuery) {
+//        @RequestBody 只能使用@PostMapping请求，而且加上required=false的条件，意思是这个变量可以没有
         //创建page对象
         Page<EduTeacher> pageTeacher = new Page<>(current,limit);
 
