@@ -60,7 +60,10 @@ public class Mpdemo1010ApplicationTests {
         //根据id查询数据
         User user = userMapper.selectById(1422366605869867010l);
         //进行修改
-        user.setAge(200);
+        user.setAge(20);
+
+        //模拟取出数据后，数据库中version实际数据比取出的值大，即已被其它线程修改并更新了version
+//        user.setVersion(user.getVersion() - 1);
         userMapper.updateById(user);
     }
 
