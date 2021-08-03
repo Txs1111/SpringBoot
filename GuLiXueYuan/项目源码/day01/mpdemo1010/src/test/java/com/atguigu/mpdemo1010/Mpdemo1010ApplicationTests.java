@@ -111,7 +111,7 @@ public class Mpdemo1010ApplicationTests {
     //删除操作 物理删除
     @Test
     public void testDeleteById(){
-        int result = userMapper.deleteById(1231125349744828417L);
+        int result = userMapper.deleteById(1422387555344658433L);
         System.out.println(result);
     }
 
