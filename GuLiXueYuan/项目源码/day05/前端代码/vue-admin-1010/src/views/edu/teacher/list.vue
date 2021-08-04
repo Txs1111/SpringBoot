@@ -39,22 +39,28 @@
     </el-form>
 
     <!-- 表格 -->
+
+  <!-- 
+    下面两个标签是用来加载数据用的,中间要放你要加载的数据
+    v-loading='listLoading'
+  element-loading-text="数据加载中" -->
+
     <el-table
+      v-loading='listLoading'
       :data="list"
+      element-loading-text="数据加载中"
       border
       fit
       highlight-current-row>
 
-      <el-table-column
-        label="序号"
-        width="70"
-        align="center">
+      <el-table-column label="序号" width="70" align="center">
         <template slot-scope="scope">
           {{ (page - 1) * limit + scope.$index + 1 }}
         </template>
       </el-table-column>
 
       <el-table-column prop="name" label="名称" width="80" />
+      <el-table-column prop="level" label="等级" width="80" />
 
       <el-table-column label="头衔" width="80">
         <template slot-scope="scope">
