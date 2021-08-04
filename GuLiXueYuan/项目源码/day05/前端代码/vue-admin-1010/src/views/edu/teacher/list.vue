@@ -147,15 +147,23 @@ export default {
                 //调用删除的方法
                 teacher.deleteTeacherId(id)
                     .then(response =>{//删除成功
-                    //提示信息
-                    this.$message({
-                        type: 'success',
-                        message: '删除成功!'
-                    });
+                      //提示信息
+                      this.$message({
+                          type: 'success',
+                          message: '删除成功!'
+                    })
                     //回到列表页面
                     this.getList()
-                })
+                    })
+                    
             }) //点击取消，执行catch方法
+            .catch(() =>{
+
+                      this.$message({
+                          type: 'info',
+                          message: '取消删除'
+                      })
+                  });
         }
  
     }
