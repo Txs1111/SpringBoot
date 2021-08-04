@@ -98,7 +98,6 @@ public class EduTeacherController {
                                   @RequestBody(required = false)  TeacherQuery teacherQuery) {
         //创建page对象
         Page<EduTeacher> pageTeacher = new Page<>(current,limit);
-
         //构建条件
         QueryWrapper<EduTeacher> wrapper = new QueryWrapper<>();
        // 多条件组合查询
