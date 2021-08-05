@@ -82,7 +82,7 @@ export const constantRouterMap = [{
         path: '/subject',
         component: Layout,
         redirect: '/subject/list',
-        name: '课程分类？？',
+        name: '课程分类管理',
         meta: { title: '课程分类管理', icon: 'example' },
         children: [{
                 path: 'list',
