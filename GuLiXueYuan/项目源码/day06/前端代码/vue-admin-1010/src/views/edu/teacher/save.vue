@@ -24,6 +24,7 @@
       <!-- 讲师头像：TODO -->
       <!-- 讲师头像 -->
       <el-form-item label="讲师头像">
+
           <!-- 头衔缩略图 -->
           <pan-thumb :image="teacher.avatar"/>
           <!-- 文件上传按钮 -->
@@ -31,13 +32,13 @@
           </el-button>
 
           <!--
-          v-show：是否显示上传组件
-          :key：类似于id，如果一个页面多个图片上传控件，可以做区分
-          :url：后台上传的url地址
-          @close：关闭上传组件
-          @crop-upload-success：上传成功后的回调 
-          <input type="file" name="file"/>
-          -->
+      v-show：是否显示上传组件
+      :key：类似于id，如果一个页面多个图片上传控件，可以做区分
+      :url：后台上传的url地址
+      @close：关闭上传组件
+      @crop-upload-success：上传成功后的回调 
+        <input type="file" name="file"/>
+      -->
           <image-cropper
                         v-show="imagecropperShow"
                         :width="300"
@@ -49,7 +50,6 @@
                         @crop-upload-success="cropSuccess"/>
       </el-form-item>
 
-    
       <el-form-item>
         <el-button :disabled="saveBtnDisabled" type="primary" @click="saveOrUpdate">保存</el-button>
       </el-form-item>
@@ -61,6 +61,7 @@
 import teacherApi from '@/api/edu/teacher'
 import ImageCropper from '@/components/ImageCropper'
 import PanThumb from '@/components/PanThumb'
+
 export default {
   components: { ImageCropper, PanThumb },
   data() {
@@ -73,6 +74,7 @@ export default {
         intro: '',
         avatar: 'https://t-lyon-test.oss-cn-beijing.aliyuncs.com/2021/08/04/26a1408e4c8b44ffab485aecb2f11891file.png'
       },
+
       //上传弹框组件是否显示
       imagecropperShow:false,
       imagecropperKey:0,//上传组件key值
@@ -81,7 +83,7 @@ export default {
     }
   },
   created() { //页面渲染之前执行
-    this.init()
+    // this.init()
   },
   watch: {  //监听
     $route(to, from) { //路由变化方式，路由发生变化，方法就会执行
