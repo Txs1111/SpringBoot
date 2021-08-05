@@ -72,7 +72,7 @@ export default {
         level: 1,
         career: '',
         intro: '',
-        avatar: 'https://t-lyon-test.oss-cn-beijing.aliyuncs.com/2021/08/04/26a1408e4c8b44ffab485aecb2f11891file.png'
+        avatar: ''
       },
 
       //上传弹框组件是否显示
