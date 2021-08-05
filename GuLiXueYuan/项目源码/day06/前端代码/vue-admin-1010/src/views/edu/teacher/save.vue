@@ -24,7 +24,6 @@
       <!-- 讲师头像：TODO -->
       <!-- 讲师头像 -->
       <el-form-item label="讲师头像">
-
           <!-- 头衔缩略图 -->
           <pan-thumb :image="teacher.avatar"/>
           <!-- 文件上传按钮 -->
@@ -72,7 +71,7 @@ export default {
         level: 1,
         career: '',
         intro: '',
-        avatar: ''
+        avatar: 'https://t-lyon-test.oss-cn-beijing.aliyuncs.com/2021/08/04/26a1408e4c8b44ffab485aecb2f11891file.png'
       },
       //上传弹框组件是否显示
       imagecropperShow:false,
