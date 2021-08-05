@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
  * 课程视频 服务实现类
  * </p>
  *
- * @author T_Lyon
- * @since 2021-08-05
+ * @author testjava
+ * @since 2020-03-02
  */
 @Service
 public class EduVideoServiceImpl extends ServiceImpl<EduVideoMapper, EduVideo> implements EduVideoService {
