@@ -35,7 +35,7 @@
 </template>
 <script>
 export default {
-    deta(){
+    data(){
         return{
             BASE_API: process.env.BASE_API, // 接口API地址
             // OSS_PATH: process.env.OSS_PATH, // 阿里云OSS地址
