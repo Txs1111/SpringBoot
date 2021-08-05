@@ -28,7 +28,7 @@ public class CodeGenerator {
         String projectPath = System.getProperty("user.dir");
         gc.setOutputDir("D:\\IDEA\\Code\\SpringBoot\\GuLiXueYuan\\项目源码\\day07\\后端代码\\guli_parentyuanban\\service\\service_edu" + "/src/main/java");
 
-        gc.setAuthor("testjava");
+        gc.setAuthor("T_Lyon");
         gc.setOpen(false); //生成后是否打开资源管理器
         gc.setFileOverride(false); //重新生成时文件是否覆盖
 
@@ -43,10 +43,10 @@ public class CodeGenerator {
 
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/gulixueyuan?useUnicode=true&useSSL=false&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useAffectedRows=true&allowMultiQueries=true");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("root");
+        dsc.setPassword("123456");
         dsc.setDbType(DbType.MYSQL);
         mpg.setDataSource(dsc);
 

@@ -5,14 +5,14 @@ export default {
         return request({
             url: '/eduservice/course/addCourseInfo',
             method: 'post',
-            data: courseInfo
-        })
+            data:courseInfo
+          })
     },
     //2 查询所有讲师
     getListTeacher() {
         return request({
             url: '/eduservice/teacher/findAll',
             method: 'get'
-        })
+          })
     }
 }
