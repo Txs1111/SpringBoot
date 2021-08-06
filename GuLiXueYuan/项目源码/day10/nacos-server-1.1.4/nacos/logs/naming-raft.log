@@ -1,0 +1,30 @@
+2021-08-06 21:08:12,618 INFO initializing Raft sub-system
+
+2021-08-06 21:08:12,618 INFO raft notifier started
+
+2021-08-06 21:08:12,622 INFO finish loading all datums, size: 0 cost 4 ms.
+
+2021-08-06 21:08:12,626 INFO cache loaded, datum count: 0, current term: 0
+
+2021-08-06 21:08:12,627 INFO finish to load data from disk, cost: 9 ms.
+
+2021-08-06 21:08:12,465 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.134.1","key":"192.168.134.1:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-08-06 21:08:12,630 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-08-06 21:08:12,634 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.134.1","key":"192.168.134.1:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-08-06 21:08:12,776 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-08-06 21:08:14,698 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-08-06 21:08:17,452 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.134.1","key":"192.168.134.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-08-06 21:08:17,452 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.134.1","key":"192.168.134.1:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-08-06 21:08:17,452 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.134.1","key":"192.168.134.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-08-06 21:08:20,473 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.134.1","key":"192.168.134.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-08-06 21:08:21,633 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.134.1:8848","leaderDueMs":16890,"state":"FOLLOWER","term":0,"voteFor":""}, term: 0
+
