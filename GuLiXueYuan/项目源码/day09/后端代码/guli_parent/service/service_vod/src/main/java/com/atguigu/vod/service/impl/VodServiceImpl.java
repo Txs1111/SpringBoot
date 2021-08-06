@@ -39,7 +39,7 @@ public class VodServiceImpl implements VodService {
             return videoId;
         }catch(Exception e) {
             e.printStackTrace();
-            return null;
+            return "失败";
         }
 
     }

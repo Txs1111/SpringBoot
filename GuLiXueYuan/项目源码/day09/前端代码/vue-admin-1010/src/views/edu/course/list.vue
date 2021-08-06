@@ -35,19 +35,19 @@
         </template>
       </el-table-column>
 
-      <el-table-column prop="title" label="课程名称"  />
+      <el-table-column prop="title" label="课程名称" align="center" />
 
-      <el-table-column label="课程状态" width="80">
+      <el-table-column label="课程状态" width="150" align="center">
         <template slot-scope="scope">
           {{ scope.row.status==='Normal'?'已发布':'未发布' }}
         </template>
       </el-table-column>
 
-      <el-table-column prop="lessonNum" label="课时数" width="200" />
+      <el-table-column prop="lessonNum" label="课时数" width="100" align="center" />
 
-      <el-table-column prop="gmtCreate" label="添加时间" width="160"/>
+      <el-table-column prop="gmtCreate" label="添加时间" width="200" align="center"/>
 
-      <el-table-column prop="viewCount" label="浏览数量" width="60" />
+      <el-table-column prop="viewCount" label="浏览数量" width="100" align="center" />
 
       <el-table-column label="操作" width="200" align="center">
         <template slot-scope="scope">
