@@ -58,7 +58,7 @@ public class OssServiceImpl implements OssService {
 
             //把上传之后文件路径返回
             //需要把上传到阿里云oss路径手动拼接出来
-            //  https://edu-guli-1010.oss-cn-beijing.aliyuncs.com/01.jpg
+            //  https://t-lyon-test.oss-cn-beijing.aliyuncs.com/01.jpg
             String url = "https://"+bucketName+"."+endpoint+"/"+fileName;
             return url;
         }catch(Exception e) {
