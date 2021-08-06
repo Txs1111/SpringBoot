@@ -18,7 +18,7 @@ public class TestVod {
         String accessKeySecret = "9st82dv7EvFk9mTjYO1XXbM632fRbG";
 
         String title = "6 - What If I Want to Move Faster - upload by sdk";   //上传之后文件名称
-        String fileName = "F:/6 - What If I Want to Move Faster.mp4";  //本地文件路径和名称
+        String fileName = "F:\\谷粒学院\\尚硅谷谷粒学院项目视频教程\\项目资料\\1-阿里云上传测试视频\\6 - What If I Want to Move Faster.mp4";  //本地文件路径和名称
         //上传视频的方法
         UploadVideoRequest request = new UploadVideoRequest(accessKeyId, accessKeySecret, title, fileName);
         /* 可指定分片上传时每个分片的大小，默认为2M字节 */
@@ -28,7 +28,6 @@ public class TestVod {
 
         UploadVideoImpl uploader = new UploadVideoImpl();
         UploadVideoResponse response = uploader.uploadVideo(request);
-
         if (response.isSuccess()) {
             System.out.print("VideoId=" + response.getVideoId() + "\n");
         } else {
