@@ -1,0 +1,34 @@
+2021-08-08 12:26:38,332 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.134.1:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-08-08 12:26:38,335 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.134.1:8002_true,
+
+2021-08-08 12:26:40,067 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.134.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-08-08 12:26:40,067 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.134.1:8001_true,
+
+2021-08-08 12:27:34,235 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.134.1:8002_true,
+
+2021-08-08 12:27:52,743 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.134.1:8001_true,
+
+2021-08-08 12:28:15,922 INFO DEFAULT_GROUP@@service-vod {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.134.1:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-08-08 12:28:15,922 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-vod, ips: 192.168.134.1:8003_true,
+
+2021-08-08 14:52:22,521 INFO {POS} {IP-DISABLED} valid: 192.168.134.1:8003@DEFAULT@DEFAULT_GROUP@@service-vod, region: unknown, msg: client timeout after 15000, last beat: 1628405526889
+
+2021-08-08 14:52:26,624 INFO {POS} {IP-DISABLED} valid: 192.168.134.1:8001@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1628405528936
+
+2021-08-08 14:52:29,921 INFO {POS} {IP-DISABLED} valid: 192.168.134.1:8002@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1628405530440
+
+2021-08-08 14:52:38,094 INFO DEFAULT_GROUP@@service-vod {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.134.1:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-08-08 14:52:38,095 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-vod, ips: 
+
+2021-08-08 14:52:41,629 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.134.1:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-08-08 14:52:41,629 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2021-08-08 14:52:44,928 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.134.1:8002:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-08-08 14:52:44,928 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 
+
