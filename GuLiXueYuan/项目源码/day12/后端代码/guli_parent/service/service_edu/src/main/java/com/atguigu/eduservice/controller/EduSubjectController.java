@@ -18,7 +18,7 @@ import java.util.List;
  * 课程科目 前端控制器
  * </p>
  *
- * @author testjava
+ * @author T_Lyon
  * @since 2020-02-29
  */
 @RestController

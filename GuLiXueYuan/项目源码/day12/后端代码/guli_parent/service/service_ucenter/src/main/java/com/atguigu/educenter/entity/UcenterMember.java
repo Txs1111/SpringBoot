@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
  * 会员表
  * </p>
  *
- * @author testjava
+ * @author T_Lyon
  * @since 2020-03-09
  */
 @Data

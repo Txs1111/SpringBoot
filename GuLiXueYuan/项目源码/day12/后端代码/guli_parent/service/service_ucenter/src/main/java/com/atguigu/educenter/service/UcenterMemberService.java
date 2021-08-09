@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 会员表 服务类
  * </p>
  *
- * @author testjava
+ * @author T_Lyon
  * @since 2020-03-09
  */
 public interface UcenterMemberService extends IService<UcenterMember> {

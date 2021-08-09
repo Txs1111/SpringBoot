@@ -22,7 +22,7 @@ import java.util.List;
  * 讲师 前端控制器
  * </p>
  *
- * @author testjava
+ * @author T_Lyon
  * @since 2020-02-24
  */
 @Api(description="讲师管理")

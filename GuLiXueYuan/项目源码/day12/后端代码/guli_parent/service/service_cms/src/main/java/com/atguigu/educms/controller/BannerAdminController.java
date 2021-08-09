@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
  * 后台banner管理接口
  * </p>
  *
- * @author testjava
+ * @author T_Lyon
  * @since 2020-03-07
  */
 @RestController

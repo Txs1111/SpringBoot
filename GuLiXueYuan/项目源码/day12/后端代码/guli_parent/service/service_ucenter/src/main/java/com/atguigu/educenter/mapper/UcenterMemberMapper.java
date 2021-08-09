@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 会员表 Mapper 接口
  * </p>
  *
- * @author testjava
+ * @author T_Lyon
  * @since 2020-03-09
  */
 public interface UcenterMemberMapper extends BaseMapper<UcenterMember> {

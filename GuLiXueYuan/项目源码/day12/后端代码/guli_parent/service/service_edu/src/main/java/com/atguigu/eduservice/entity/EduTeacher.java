@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
  * 讲师
  * </p>
  *
- * @author testjava
+ * @author T_Lyon
  * @since 2020-02-24
  */
 @Data

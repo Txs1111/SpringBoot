@@ -12,7 +12,7 @@ import java.util.List;
  * 课程科目 服务类
  * </p>
  *
- * @author testjava
+ * @author T_Lyon
  * @since 2020-02-29
  */
 public interface EduSubjectService extends IService<EduSubject> {
