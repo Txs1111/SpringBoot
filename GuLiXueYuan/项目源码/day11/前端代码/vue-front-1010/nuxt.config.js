@@ -1,4 +1,11 @@
 module.exports = {
+    plugins: [
+        { src: '~/plugins/nuxt-swiper-plugin.js', ssr: false }
+    ],
+
+    css: [
+        'swiper/swiper-bundle.css'
+    ],
     /*
      ** Headers of the page
      */
@@ -28,7 +35,8 @@ module.exports = {
          */
         babel: {
             plugins: [
-                ["@babel/plugin-proposal-private-methods", { "loose": true }]
+                // ["@babel/plugin-proposal-private-methods", { "loose": true }]
+                ["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
             ]
         },
         extend(config, { isDev, isClient }) {
@@ -37,7 +45,10 @@ module.exports = {
                     enforce: 'pre',
                     test: /\.(js|vue)$/,
                     loader: 'eslint-loader',
-                    exclude: /(node_modules)/
+                    exclude: /(node_modules)/,
+                    options: {
+                        fix: true
+                    }
                 })
             }
         }

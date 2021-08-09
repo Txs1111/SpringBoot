@@ -32,6 +32,7 @@ public class CrmBannerServiceImpl extends ServiceImpl<CrmBannerMapper, CrmBanner
         //last方法，拼接sql语句
         wrapper.last("limit 2");
         List<CrmBanner> list = baseMapper.selectList(null);
+        System.out.println(list);
         return list;
     }
 }
