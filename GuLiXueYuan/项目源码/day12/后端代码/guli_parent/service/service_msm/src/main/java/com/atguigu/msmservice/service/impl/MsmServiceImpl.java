@@ -19,7 +19,7 @@ public class MsmServiceImpl implements MsmService {
     //发送短信的方法
     @Override
     public boolean send(Map<String, Object> param, String phone) {
-        if(StringUtils.isEmpty(phone)) return false;
+        if(StringUtils.isEmpty(phone)) {return false;}
 
         DefaultProfile profile =
                 DefaultProfile.getProfile("default", "LTAI5tN6oYVLaS27iFH8b4FM", "iW2kSeQyNWZAQqxrzv0cEjfDvXi5iw");
