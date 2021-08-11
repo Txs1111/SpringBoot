@@ -146,3 +146,15 @@
 
 2021-08-09 11:53:16,706 WARN max re-push times reached, retry times 2, key: 192.168.126.1,51786,224292085812600
 
+2021-08-09 20:29:02,357 INFO DEFAULT_GROUP@@service-oss is changed, add it to push queue.
+
+2021-08-09 20:29:02,380 INFO DEFAULT_GROUP@@service-edu is changed, add it to push queue.
+
+2021-08-09 20:29:02,875 INFO DEFAULT_GROUP@@service-vod is changed, add it to push queue.
+
+2021-08-09 20:29:17,635 INFO DEFAULT_GROUP@@service-oss is changed, add it to push queue.
+
+2021-08-09 20:29:17,635 INFO DEFAULT_GROUP@@service-edu is changed, add it to push queue.
+
+2021-08-09 20:29:17,882 INFO DEFAULT_GROUP@@service-vod is changed, add it to push queue.
+
